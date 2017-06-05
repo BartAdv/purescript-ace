@@ -1,6 +1,6 @@
 "use strict";
 
-exports.ace = ace;
+exports.ace = require('ace');
 
 exports.editImpl = function (el, self) {
   return function () {
